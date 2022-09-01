@@ -1,6 +1,6 @@
-0/1 KNAPSACK PROBLEM
+# 0/1 KNAPSACK PROBLEM
 
-  The Problem Statement:
+  ## The Problem Statement:
 
         A KNAPSACK (container) is given with a capacity M. There are N objects to
         fill in KNAPSACK. Each object has different profits. The fraction of objects are not allowed. 
@@ -8,7 +8,7 @@
         such a way that the profit is maximum and find the maximum profit.
     
 
-   Approach:
+   ## Approach:
         
         These kind of minimization/maximization problem are called optimization problems.
         One of the approach to solve optimization problems are DYNAMIC PROGRAMMING.
@@ -16,7 +16,7 @@
         each solution is stored in an array to reduce repeated computation.
 
 
-   ALGORITHM:
+   ## ALGORITHM:
 
         1. Take profits and weights of objects as input from user.
         2. Create a matrix of n+1,m+1 dimensions.
