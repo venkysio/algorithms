@@ -24,7 +24,7 @@ def defangeIP_sol1(string : str,char) -> str :
     ans=string.replace(".",char)
     return ans
 
-# Bu using 
+# Detailed approach
 def defangeIP(string:str,char) -> str:
     ans=""
     for character in string:
