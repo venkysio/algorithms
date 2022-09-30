@@ -1,0 +1,11 @@
+enter no of elements in array 5
+enter elements in to the array 1 8 9 20 100
+enter element to search 0
+element does not exist
+
+
+
+enter no of elements in array 5
+enter elements in to the array 100 500 40 60 90
+enter element to search 40
+elemen present at index 2

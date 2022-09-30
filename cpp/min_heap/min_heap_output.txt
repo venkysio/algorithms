@@ -1,0 +1,10 @@
+enter no of elements in array 5
+enter elements in the array10 20 90 80 50
+This is the requird min heap 10 20 50 80 90 
+
+
+
+
+enter no of elements in array 4
+enter elements in the array400 90 40 0
+This is the requird min heap 0 40 90 400 
