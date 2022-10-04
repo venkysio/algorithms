@@ -1,0 +1,15 @@
+checking for queue empty 
+queue is empty
+Enter an element to push in to queue2
+element pushed in to queue
+checking for top of element
+top of the element is 2
+Enter another element to push in to queue1
+element pushed in to queue
+checking for top of element
+top of the element is 2
+checking size of queue
+size of queue is 2
+poping of the element
+the poped element is2checking size of queue
+size of queue is 1

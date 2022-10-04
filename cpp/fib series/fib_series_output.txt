@@ -1,0 +1,3 @@
+enter the element for lenght of serie s 10
+The fib series of len 10 is
+0 11 2 3 5 8 13 21 34  

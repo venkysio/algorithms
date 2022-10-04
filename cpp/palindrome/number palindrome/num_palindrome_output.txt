@@ -1,0 +1,6 @@
+enter a number to check palindrome 30
+30 is not a palindrome number
+
+
+enter a number to check palindrome 0
+0 is a palindrome number

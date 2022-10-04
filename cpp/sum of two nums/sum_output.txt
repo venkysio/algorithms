@@ -1,0 +1,9 @@
+enter first num 200
+enter second num 40
+sum of 200 and 40 is 240
+
+
+
+enter first num 30
+enter second num 4
+sum of 30 and 4 is 34

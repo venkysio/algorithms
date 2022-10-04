@@ -1,0 +1,6 @@
+enter a string to check palindrome apple
+apple is not a palindrome
+
+
+enter a string to check palindrome aba
+aba is a palindrome
