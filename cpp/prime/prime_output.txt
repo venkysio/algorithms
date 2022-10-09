@@ -1,7 +1,0 @@
-enter a number to check prime 2
-2 is a prime number
-
-
-
-enter a number to check prime 10
-10 is not a prime number

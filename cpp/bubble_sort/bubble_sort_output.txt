@@ -1,8 +1,0 @@
-enter no of elements in array 5
-enter elements in the array2 2 7 4 1
-The sorted array using bubble sort is  1 2 2 4 7 
-
-
-enter no of elements in array 3
-enter elements in the array1 10 100
-The sorted array using bubble sort is  1 10 100 

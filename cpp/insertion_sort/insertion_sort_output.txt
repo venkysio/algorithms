@@ -1,9 +1,0 @@
-enter no of elements in array 5
-enter elements in the array 10 9 5 4 3
-The sorted array using insertion sort is  3 10 9 5 4 
-
-
-
-enter no of elements in array 4
-enter elements in the array 4 10 400 0
-The sorted array using insertion sort is  0 10 400 4 

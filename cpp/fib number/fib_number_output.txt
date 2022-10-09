@@ -1,2 +1,0 @@
-enter the element for nth fib number 10
-The 10 fib number of the series is 34
