@@ -1,0 +1,10 @@
+enter no of elements in array 4
+enter elements in the array100 90 8 0
+This is the requird min heap sorted array 0 8 90 100 
+
+
+
+
+enter no of elements in array 7
+enter elements in the array7 6 5 100 0 3 20
+This is the requird min heap sorted array 0 3 5 6 7 20 100 

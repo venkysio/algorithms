@@ -1,0 +1,9 @@
+enter no of elements in array 6
+enter elements in the array 1 0 90 20 50 3
+This is the requird max heap sort90 50 20 3 1 0 
+
+
+
+enter no of elements in array 4
+enter elements in the array 20 8 1 0
+This is the requird max heap sort20 8 1 0 

@@ -1,0 +1,14 @@
+-----empty queue created-----
+-----dequeue operation------
+queue is empty can't dequeue
+-----enqueue operation------
+-----enqueue operation------
+-----queue head operation------
+The head of the queue is : 1
+-----queue tail operation------
+The tail of the queue is : 2
+-----display operation------
+1->2->NULL
+-----dequeue operation------
+-----display operation------
+2->NULL

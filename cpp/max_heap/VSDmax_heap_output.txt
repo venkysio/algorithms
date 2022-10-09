@@ -1,0 +1,9 @@
+enter no of elements in array 4
+enter elements in the array 1 30 20 0
+This is the requird max heap 30 20 1 0 
+
+
+
+enter no of elements in array 4
+enter elements in the array 100 400 0 40
+This is the requird max heap 400 100 40 0 

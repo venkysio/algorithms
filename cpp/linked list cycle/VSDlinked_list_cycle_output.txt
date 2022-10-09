@@ -1,0 +1,17 @@
+-----empty linked list created-----
+-----adding at tail-----
+1->NULL
+-----adding at tail-----
+1->2->NULL
+-----adding at head-----
+0->1->2->NULL
+-----adding at head-----
+-1->0->1->2->NULL
+-----cycle detection --------
+cycle not present in the linkedlist
+-----cycle creation-----
+-----cycle detection --------
+cycle present in the linked list
+-----remove cycle --------
+-----cycle detection --------
+cycle not present in the linkedlist
