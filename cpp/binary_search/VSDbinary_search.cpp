@@ -1,19 +1,19 @@
 #include <iostream>
 using namespace std;  
 
-int binary_search(int arr[],int ele,int end ,int start){
+int VSDbinary_search(int arr[],int ele,int end ,int start){
     int itr;    
     if(end >= start)     
     {  
-        itr = (start + end)/2;
+        itr = (start + end)/2; //taking middle value
 		if(arr[itr]==ele){
         return itr;
     }
     else if (arr[itr]>ele){
-        return binary_search(arr,ele,itr,start);
+        return VSDbinary_search(arr,ele,itr,start);
     }
     else if (arr[itr]<ele){
-        return binary_search(arr,ele,end,itr);
+        return VSDbinary_search(arr,ele,end,itr);
     }
     }
     
@@ -34,7 +34,7 @@ int main() {
     int ele;
     cout<<"enter element to search ";
     cin >>ele;
-    int result = binary_search(arr,ele,n,0);
+    int result = VSDbinary_search(arr,ele,n,0);
     if(result==-1){
         cout<<"element does not exist";
     }

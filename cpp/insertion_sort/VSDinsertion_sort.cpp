@@ -1,12 +1,8 @@
 #include <iostream>
 using namespace std;
-void swap(int &a,int &b){
-    int c=a;
-    a=b;
-    b=c;
-}
 
-void insertion_sort(int arr[],int len){
+
+void VSDinsertion_sort(int arr[],int len){
      
      int temp,j;
      for(int i=1;i<len;i++){
@@ -32,7 +28,7 @@ int main() {
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
-    insertion_sort(arr,n);
+    VSDinsertion_sort(arr,n);
 
     return 0;
 }

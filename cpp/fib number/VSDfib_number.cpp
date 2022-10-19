@@ -1,22 +1,20 @@
 #include <iostream>
 using namespace std;
-void fib_series(int n){
+void VSDfib_number(int n){
     if(n==1){
         cout<<0;
     }
     else if (n==2){
-        cout<<0<<" "<<1;
+        cout<<1;
     }
     else if (n>2){
         int a=0,b=1,c;
-        cout<<a<<" "<<b;
         for(int i=2;i<n;i++){
             c=a+b;
             a=b;
             b=c;
-            cout<<c<<" ";
-            
         }
+        cout<<c;
     }
     else{
         cout<<"n value must be greater than 0";
@@ -25,10 +23,10 @@ void fib_series(int n){
 
 
 int main() {
-    cout<<"enter the element for lenght of serie s ";
+    cout<<"enter the element for nth fib number ";
     int n;
     cin>>n;
-    cout<<"The fib series of len "<<n<<" is"<<endl;
-    fib_series(n);
+    cout<<"The "<<n<<" fib number of the series is ";
+    VSDfib_number(n);
     return 0;
 }

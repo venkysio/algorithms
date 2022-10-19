@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;  
 
-int linear_search(int arr[],int ele,int len){
+int VSDlinear_search(int arr[],int ele,int len){
     int iter=0;
     while(iter<len){
         if(arr[iter]==ele){
@@ -26,7 +26,7 @@ int main() {
     int ele;
     cout<<"enter element to search ";
     cin >>ele;
-    int result = linear_search(arr,ele,n);
+    int result = VSDlinear_search(arr,ele,n);
     if(result==-1){
         cout<<"element does not exist";
     }

@@ -2,7 +2,7 @@
 using namespace std;
 
 
-void check_prime(int n){
+void VSDcheck_prime(int n){
     if(n==0 || n==1){
         cout<<n<<" is a prime number";
     }
@@ -27,6 +27,6 @@ int main() {
     int n;
     cin>>n;
     cout<<endl;
-    check_prime(n);
+    VSDcheck_prime(n);
     return 0;
 }

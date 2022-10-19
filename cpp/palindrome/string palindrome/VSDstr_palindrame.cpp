@@ -3,7 +3,7 @@
 using namespace std;
 
 
-void check_palindrome(string str){
+void VSDcheck_palindrome(string str){
     int len=str.length();
     int ptr=1;
     for(int i=0;i<len;i++){
@@ -26,6 +26,6 @@ int main() {
     string str;
     cin>>str;
     cout<<endl;
-    check_palindrome(str);
+    VSDcheck_palindrome(str);
     return 0;
 }

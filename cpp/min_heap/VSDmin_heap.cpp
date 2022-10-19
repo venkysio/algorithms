@@ -3,15 +3,15 @@
 using namespace std;
 
 
-int sort_max_heap(int arr[],int len){
-     priority_queue<int>maxh;
+int VSDmin_heap(int arr[],int len){
+     priority_queue<int,vector<int>,greater<int>>VSDminh;
      for(int i=0;i<len;i++){
-         maxh.push(arr[i]);
+         VSDminh.push(arr[i]);
      }
-     cout<<"This is the requird max heap sort";
+     cout<<"This is the requird min heap ";
      for(int i=0;i<len;i++){
-         cout<<maxh.top()<<" ";
-         maxh.pop();
+         cout<<minh.top()<<" ";
+         VSDminh.pop();
      }
      
 }
@@ -20,11 +20,11 @@ int main() {
     cout<<"enter no of elements in array ";
     cin >>n;
     int arr[n];
-    cout<<"enter elements in the array ";
+    cout<<"enter elements in the array";
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
-    sort_max_heap(arr,n);
+    VSDmin_heap(arr,n);
 
     return 0;
 }

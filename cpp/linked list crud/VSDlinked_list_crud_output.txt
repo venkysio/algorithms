@@ -1,0 +1,17 @@
+-----empty linked list created-----
+-----adding at tail-----
+1->NULL
+-----adding at tail-----
+1->2->NULL
+-----adding at head-----
+0->1->2->NULL
+-----adding at head-----
+-1->0->1->2->NULL
+-----update value by other value-----
+-1->2->1->2->NULL
+-----delete head-----
+2->1->2->NULL
+-----update value by other value-----
+0->1->2->NULL
+-----delete tail-----
+0->1->NULL

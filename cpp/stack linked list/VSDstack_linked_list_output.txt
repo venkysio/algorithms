@@ -1,0 +1,12 @@
+-----empty stack created-----
+-----pop operation------
+stack is empty can't pop
+-----push operation------
+-----push operation------
+-----top operation------
+The top of the stack is : 2
+-----display operation------
+2->1->NULL
+-----pop operation------
+-----display operation------
+1->NULL

@@ -6,7 +6,7 @@ void swap(int &a,int &b){
     b=c;
 }
 
-void bubble_sort(int arr[],int len){
+void VSDbubble_sort(int arr[],int len){
      
      for(int i=0;i<len;i++){
         for(int j=0;j<len-i-1;j++){
@@ -29,7 +29,7 @@ int main() {
     for(int i=0;i<n;i++){
         cin>>arr[i];
     }
-    bubble_sort(arr,n);
+    VSDbubble_sort(arr,n);
 
     return 0;
 }

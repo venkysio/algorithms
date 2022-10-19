@@ -3,7 +3,7 @@
 using namespace std;
 
 
-void check_palindrome(int n){
+void VSDcheck_palindrome(int n){
     int rem,sum=0;
     int temp=n;
     while(n>0){
@@ -23,6 +23,6 @@ int main() {
     int n;
     cin>>n;
     cout<<endl;
-    check_palindrome(n);
+    VSDcheck_palindrome(n);
     return 0;
 }
