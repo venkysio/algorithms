@@ -4,7 +4,8 @@ class Node:
         self.left=None
         self.right=None
         self.height=1
-class balancedtree:
+class VSDbalancedtree:
+
     def getheight(self,root):
         if not root:
             return 0
@@ -14,10 +15,12 @@ class balancedtree:
         if not root:
             return 0
         return self.getheight(root.left)-self.getheight(root.right)
+
     def getminvaluenode(self,root):
         if root is None and root.left is None:
             return root
         return self.getminvaluenode(root.left)
+
     def leftrotate(self,z):
         y=z.right
         t=y.left
@@ -26,6 +29,7 @@ class balancedtree:
         z.height=1+max(self.getheight(z.left),self.getheight(z.right))
         y.height=1+max(self.getheight(y.left),self.getheight(y.right))
         return y
+
     def rightrotate(self,z):
         y=z.left
         t=y.right
@@ -34,6 +38,7 @@ class balancedtree:
         z.height=1+max(self.getheight(z.left),self.getheight(z.right))
         y.height=1+max(self.getheight(y.left),self.getheight(y.right))
         return y
+
     def inorder(self,root):
         if root:
             self.inorder(root.left)
@@ -100,9 +105,10 @@ class balancedtree:
                 root.right=self.rightrotate(root.right)
                 return self.leftrotate(root)
         return root
+        
 arr=[33, 13, 52, 9, 21, 61, 8, 11]
 root=None
-tree=balancedtree()
+tree=VSDbalancedtree()
 for i in arr:
     root=tree.insert(root,i)
 tree.inorder(root)
